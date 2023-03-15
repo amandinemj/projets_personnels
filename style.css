@@ -1,0 +1,127 @@
+body{
+    background-color: #DFE2FF;
+    align-content: center;
+    height: 100vh;
+    display: flex;
+    color:#291F68;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.titre{
+    background-color: rgba(0, 255, 255, 0.273);
+}
+.grand_rectangle{
+    background-color: white;
+    height: 402px ;
+    width: 497px;
+    border-radius: 32px;
+    position: relative;
+}
+
+.align_hauteur{
+    align-items: center;
+}
+
+.align_largeur{
+    justify-content: center;
+}
+
+.ligne_une{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: black;
+    background-image: url(https://picsum.photos/100/100);
+
+}
+
+.nom_prenom{
+    font-size: 1.3em;
+    position: relative;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    
+    
+}
+
+.lieu{
+    font-size: 16px;
+}
+.card{
+    padding:64px;
+    border-radius: 32px;
+    background-color: white;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.275);
+    
+}
+
+.bouton{
+    border: 1px white solid;
+    display: inline-block;
+    padding: 16px 25px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition:0.3s
+
+
+}
+
+.bouton_primary{
+    border: 1px #291F68 solid;
+    background-color:#291F68 ;
+    color: white;
+}
+
+.bouton_outline{
+    border: 1px #291F68 solid;
+    background-color:white ;
+    color: #291F68;
+
+}
+
+.w-100{
+    width: 100%;
+}
+
+.marge_bas16{
+    margin-bottom: 16px;
+}
+
+.marge_bas40{
+    margin-bottom: 40px;
+}
+
+.marge_droite5{
+    margin-right: 5px;
+}
+
+.padding_gauche20{
+    padding-left: 20px;
+}
+
+.font_size18{
+    font-size: 18px;
+}
+
+.bouton_primary:hover{
+    border: 1px #1d164c solid;
+    background-color: #1d164c ;   
+}
+
+.bouton_outline:hover{
+    border: 1px #1d164c solid;
+    background-color:#1d164c ;
+    color: white;
+}
